@@ -158,3 +158,4 @@ async def test_process_comment_idempotency(test_db_session):
     assert second_res is None
     # Meta client called only once
     assert mock_meta.send_dm.call_count == 1
+

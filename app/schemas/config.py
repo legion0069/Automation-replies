@@ -76,3 +76,4 @@ class AutomationConfigUpdate(BaseModel):
     rate_limit_per_minute: Optional[int] = Field(default=None, ge=1, le=300)
     max_retries: Optional[int] = Field(default=None, ge=0, le=5)
     retry_backoff_factor: Optional[float] = Field(default=None, ge=1.0)
+

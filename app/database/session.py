@@ -38,3 +38,4 @@ def init_db() -> None:
     import app.models  # Ensure all models are imported before creating tables
     Base.metadata.create_all(bind=engine)
     logger.info("Database tables verified/initialized.")
+

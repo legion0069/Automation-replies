@@ -128,3 +128,4 @@ def test_duplicate_checker_media_specific_flag(test_db_session):
         media_specific=True,
     )
     assert is_dup_same is True
+

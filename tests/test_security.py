@@ -33,3 +33,4 @@ def test_mask_sensitive_data():
 
     assert "EAAXYZ1234567890abcdef" not in masked
     assert "REDACTED" in masked
+

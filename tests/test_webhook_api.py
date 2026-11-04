@@ -84,3 +84,4 @@ def test_webhook_post_malformed_json(client, test_settings):
         },
     )
     assert response.status_code == 400
+

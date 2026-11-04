@@ -110,3 +110,4 @@ async def receive_webhook(
         background_tasks.add_task(process_comment_background, event.model_dump())
 
     return {"status": "ok", "enqueued_events": len(events)}
+

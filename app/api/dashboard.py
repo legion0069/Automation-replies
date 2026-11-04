@@ -258,3 +258,4 @@ def render_dashboard(db: Session = Depends(get_db)):
 </body>
 </html>"""
     return HTMLResponse(content=html_content)
+

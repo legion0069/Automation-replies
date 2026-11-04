@@ -17,3 +17,4 @@ class ErrorLog(Base):
 
     def __repr__(self) -> str:
         return f"<ErrorLog(id={self.id}, error_type='{self.error_type}')>"
+

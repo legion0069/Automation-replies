@@ -9,3 +9,4 @@ api_router.include_router(admin.router, prefix="/api/v1/settings", tags=["Admin 
 api_router.include_router(dashboard.router, tags=["Dashboard & Stats"])
 
 __all__ = ["api_router"]
+

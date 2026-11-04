@@ -50,3 +50,4 @@ def verify_meta_signature(
             expected_hash[:8] + "...",
         )
     return is_valid
+

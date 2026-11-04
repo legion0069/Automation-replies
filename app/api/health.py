@@ -30,3 +30,4 @@ def health_check(
         "version": "1.0.0",
         "mode": "debug" if settings.DEBUG else "production",
     }
+

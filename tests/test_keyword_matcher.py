@@ -86,3 +86,4 @@ def test_keyword_matcher_empty_inputs():
     matcher = KeywordMatcher(config_with_kws)
     matched, kw = matcher.match("")
     assert matched is False
+

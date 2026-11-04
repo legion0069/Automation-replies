@@ -14,3 +14,4 @@ class Setting(Base):
 
     def __repr__(self) -> str:
         return f"<Setting(key='{self.key}')>"
+

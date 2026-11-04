@@ -47,3 +47,4 @@ class CommentEvent(BaseModel):
     text: str
     timestamp: Optional[int] = None
     raw_payload: Optional[Dict[str, Any]] = None
+

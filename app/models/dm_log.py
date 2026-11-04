@@ -25,3 +25,4 @@ class DMLog(Base):
 
     def __repr__(self) -> str:
         return f"<DMLog(id={self.id}, user_id={self.user_id}, status='{self.status}')>"
+

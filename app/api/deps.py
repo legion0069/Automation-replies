@@ -44,3 +44,4 @@ def get_comment_processor(
         keyword_matcher=KeywordMatcher(),
         duplicate_checker=DuplicateChecker(),
     )
+

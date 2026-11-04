@@ -51,3 +51,4 @@ def test_stats_and_dashboard_endpoints(client):
     dash_res = client.get("/dashboard")
     assert dash_res.status_code == 200
     assert "Instagram Auto DM Dashboard" in dash_res.text
+

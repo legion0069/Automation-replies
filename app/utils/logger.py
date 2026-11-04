@@ -94,3 +94,4 @@ def setup_logging(
     logging.getLogger("httpx").setLevel(logging.WARNING)
 
     logging.info("Logging successfully initialized. Level: %s, File: %s", log_level, log_file_path)
+

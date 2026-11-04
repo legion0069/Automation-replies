@@ -125,3 +125,4 @@ async def test_refresh_token(test_settings):
     client = MetaClient(settings=test_settings, client=mock_http_client)
     res = await client.refresh_token()
     assert res["access_token"] == "new_long_lived_token_123"
+

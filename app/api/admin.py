@@ -42,3 +42,4 @@ def toggle_automation():
     updated = config_mgr.update(AutomationConfigUpdate(enabled=not current.enabled))
     logger.info("Admin toggled automation enabled status to: %s", updated.enabled)
     return updated
+

@@ -49,3 +49,4 @@ class DuplicateChecker:
             return True
 
         return False
+

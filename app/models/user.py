@@ -20,3 +20,4 @@ class User(Base):
 
     def __repr__(self) -> str:
         return f"<User(id={self.id}, ig_user_id='{self.ig_user_id}', username='{self.username}')>"
+

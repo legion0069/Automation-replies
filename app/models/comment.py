@@ -23,3 +23,4 @@ class Comment(Base):
 
     def __repr__(self) -> str:
         return f"<Comment(id={self.id}, comment_id='{self.comment_id}', user_id={self.user_id})>"
+

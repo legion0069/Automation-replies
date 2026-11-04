@@ -54,3 +54,4 @@ volumes:
 networks:
   ig_network:
     driver: bridge
+

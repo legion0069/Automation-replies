@@ -211,3 +211,4 @@ class CommentProcessor:
                 db.rollback()
                 logger.error("Failed to persist error log: %s", inner_exc)
                 return None
+

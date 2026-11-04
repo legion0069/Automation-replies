@@ -84,3 +84,4 @@ def get_dynamic_config() -> DynamicConfigManager:
             if DynamicConfigManager._instance is None:
                 DynamicConfigManager._instance = DynamicConfigManager()
     return DynamicConfigManager._instance
+
