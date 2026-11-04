@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "match_mode": "partial",
+  "case_sensitive": false,
+  "keywords": [
+    "link",
+    "guide",
+    "cheatsheet"
+  ],
+  "reply_once_days": 14,
+  "media_id_cooldown_only": false,
+  "message_template": "Hi {username} 👋\n\nThanks for commenting! Here are the resources you requested:\n\n📌 Infosys Preparation Kit\nhttps://example.com/resources/infosys\n\n📌 TCS NQT Complete Guide\nhttps://example.com/resources/tcs-nqt\n\n📌 CodeVita Roadmap & Practice\nhttps://example.com/resources/codevita\n\nBest of luck with your prep! ❤️",
+  "rate_limit_per_minute": 60,
+  "max_retries": 3,
+  "retry_backoff_factor": 2.0
+}
